@@ -2,7 +2,7 @@
 Application script for microblog, import app Flask instance from app package
 """
 
-from app import app, db
+from app import app, db, cli
 from app.models import User, Post
 
 @app.shell_context_processor
