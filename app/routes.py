@@ -3,6 +3,10 @@ Routes module containing routes (different URLs that the application implements)
 
 -index route which displays some blog posts
 -login route
+-logout
+-register
+-user
+-edit profile - edits profile name (and prevents duplicates) and description
 """
 
 from flask import render_template, flash, redirect, url_for
