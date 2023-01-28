@@ -1,7 +1,3 @@
-"""
-Application script for microblog, import app Flask instance from app package
-"""
-
 from app import create_app, db, cli
 from app.models import User, Post
 
